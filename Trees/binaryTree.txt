@@ -1,0 +1,35 @@
+
+
+    // Insert nodes
+    root = InsertNode(root, 50);
+    root = InsertNode(root, 30);
+    root = InsertNode(root, 70);
+    root = InsertNode(root, 20);
+    root = InsertNode(root, 40);
+    root = InsertNode(root, 60);
+    root = InsertNode(root, 80);
+    root = InsertNode(root, 10);
+    root = InsertNode(root, 90);
+    root = InsertNode(root, 100);
+
+
+    After insertion
+
+         50
+       /    \
+     30      70
+    /  \    /  \
+  20   40  60   80
+ /               \
+10                90
+                     \
+                      100
+
+(VLR)
+PreOrder: 50 30 20 10 40 70 60 80 90 100 
+
+(LVR)
+InOrder: 10 20 30 40 50 60 70 80 90 100 
+
+(LRV)
+PostOrder: 10 20 40 30 60 100 90 80 70 50 
